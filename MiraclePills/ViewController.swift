@@ -14,6 +14,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     @IBOutlet weak var statePickerBtn: UIButton!
     
+    @IBOutlet weak var bynowButton: UIButton!
+    
     let states = ["Alaska", "Arkansas", "Alabama", "California", "Maine", "New York"]
     
     override func viewDidLoad() {
@@ -49,5 +51,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         statePicker.isHidden = true
     }
 
+    @IBAction func buynowBtnPressed(_ sender: Any) {
+    }
 }
 
